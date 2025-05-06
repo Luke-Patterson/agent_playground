@@ -1,0 +1,2 @@
+2025-04-29 09:18:35,873 - INFO - Starting medical diagnosis workflow
+2025-04-29 09:18:40,229 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"

@@ -1,0 +1,1870 @@
+2025-04-29 09:30:13,315 - INFO - Starting medical diagnosis workflow
+2025-04-29 09:30:25,456 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:30:25,513 - INFO - Generated patient symptoms
+2025-04-29 09:30:36,061 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:30:36,065 - INFO - General practitioner assessment completed
+2025-04-29 09:30:47,178 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:30:47,180 - INFO - Pulmonologist consultation completed
+2025-04-29 09:30:47,372 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:30:47,377 - INFO - Cardiologist consultation completed
+2025-04-29 09:30:51,193 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:30:51,198 - INFO - Neurologist consultation completed
+2025-04-29 09:31:04,870 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:31:04,881 - INFO - Final diagnosis and treatment plan completed
+2025-04-29 09:31:04,892 - INFO - 
+=== Patient Case Summary ===
+2025-04-29 09:31:04,894 - INFO - Patient Symptoms and History:
+2025-04-29 09:31:04,895 - INFO - **Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.**Patient Profile:**
+
+- **Age:** 54
+- **Gender:** Female
+
+**Main Symptoms:**
+
+1. **Chest Pain:** 
+   - **Duration:** 2 weeks
+   - **Description:** Intermittent sharp pain in the middle of the chest, worsens with exertion and relieved by rest.
+   - **Severity:** Moderate to severe
+
+2. **Shortness of Breath:**
+   - **Duration:** 1 month
+   - **Description:** Difficulty breathing, especially during physical activities and also at rest sometimes.
+   - **Related Symptoms:** Wheezing, occasional coughing.
+
+3. **Fatigue:**
+   - **Duration:** 3 months
+   - **Description:** Persistent tiredness, regardless of amount of sleep. Difficult to complete daily tasks.
+
+4. **Swelling in legs and ankles:**
+   - **Duration:** 2 months
+   - **Description:** Noticeable swelling, more pronounced by the end of the day, causing discomfort.
+
+**Relevant Medical History:**
+
+1. **Hypertension:** Diagnosed 10 years ago; currently managed with a combination of lisinopril and a low-sodium diet.
+2. **Type 2 Diabetes:** Diagnosed 5 years ago; controlled with metformin and dietary adjustments. Last HbA1c was 7.8.
+3. **Hyperlipidemia:** Diagnosed 8 years ago; on atorvastatin, shows some improvement but cholesterol levels still borderline high.
+4. **Previous Smoking History:** Smoked for 25 years, quit 5 years ago.
+5. **Obesity:** BMI of 32, with a history of weight fluctuations.
+6. **Familial Cardiovascular Disease:** Father had a myocardial infarction at age 58 and mother had congestive heart failure.
+
+**Medications:**
+
+1. **Lisinopril:** 10 mg once daily for hypertension.
+2. **Metformin:** 500 mg twice daily for type 2 diabetes.
+3. **Atorvastatin:** 20 mg once daily for hyperlipidemia.
+4. **Aspirin:** 81 mg once daily as a preventive measure for heart disease.
+
+**Lifestyle:**
+
+- **Diet:** Mostly balanced but finds it hard to limit carbohydrates and sweets. 
+- **Exercise:** Infrequent; mild occasional walking.
+- **Alcohol:** Drinks socially, about 1-2 times a month, usually wine.
+
+**Allergies:**
+
+- Morphine (causes severe itching and hives).
+
+**Family History:**
+
+- **Father:** Myocardial infarction at age 58
+- **Mother:** Congestive heart failure, hypertension
+
+**Recent Tests:**
+
+- **Blood Pressure:** 140/90 mmHg at the last check.
+- **HbA1c:** 7.8 (last checked 2 months ago).
+- **Cholesterol:** Total cholesterol 230 mg/dL, LDL 160 mg/dL, HDL 40 mg/dL (last checked 6 months ago).
+
+**Social History:**
+
+- Lives with her spouse, both children are grown and live independently.
+- Worked as a school teacher, recently retired.
+- Enjoys gardening and reading. 
+
+**Concerns:**
+
+- Increasing discomfort and limitation of activities due to chest pain and shortness of breath.
+- Worry about potential cardiac issues due to family history and current symptoms.
+2025-04-29 09:31:04,958 - INFO - 
+=== Medical Assessment ===
+2025-04-29 09:31:04,977 - INFO - Initial Diagnosis:
+2025-04-29 09:31:04,979 - INFO - Based on the provided patient profile and symptoms, here is an analysis and initial assessment:
+
+### Initial Diagnosis:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - The intermittent chest pain that worsens with exertion and is relieved by rest is highly suggestive of angina pectoris, indicating possible ischemic heart disease.
+   
+2. **Congestive Heart Failure (CHF):**
+   - The presence of shortness of breath, especially with physical activity and at rest, coupled with wheezing, coughing, and swelling in the legs and ankles, suggests fluid overload and possible congestive heart failure.
+   
+3. **Poorly Controlled Risk Factors:** 
+   - Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity, and previous smoking history further complicate the cardiac profile and increase the likelihood of cardiovascular events.
+
+### Recommended Specialists to Consult:
+
+1. **Cardiologist:** 
+   - For comprehensive evaluation of possible ischemic heart disease and congestive heart failure. Diagnostic workup might include:
+     - Electrocardiogram (EKG)
+     - Echocardiogram
+     - Stress Test
+     - Coronary Angiography
+     - BNP levels for heart failure
+     - Further evaluation of lipid profile and management
+
+2. **Endocrinologist:**
+   - For better management of Type 2 Diabetes and optimization of diabetic control.
+
+3. **Pulmonologist:**
+   - Given the symptoms of shortness of breath, wheezing, and coughing, to rule out any potential respiratory disorders like COPD or asthma, which might be contributing to her symptoms.
+
+4. **Dietitian/Nutritionist:**
+   - For assistance with dietary modifications to better manage diabetes, hypertension, and hyperlipidemia.
+
+### Immediate Concerns:
+
+1. **Potential for Acute Coronary Syndrome (ACS):**
+   - Given the chest pain and family history of myocardial infarction, there's a need for immediate evaluation to rule out the risk of an impending cardiac event.
+   
+2. **Decompensated Congestive Heart Failure:**
+   - Symptoms such as shortness of breath and swelling in the legs and ankles suggest fluid retention and possible heart failure, which must be urgently assessed and managed.
+   
+3. **Hypertensive Urgency:**
+   - Blood pressure management appears suboptimal with a reading of 140/90 mmHg. Closer BP control is essential to reduce cardiovascular risk.
+   
+4. **Poorly Controlled Diabetes:**
+   - With an HbA1c of 7.8, there is room for improvement in diabetes management to prevent further complications.
+
+**Action Plan:**
+
+1. Immediate referral to the emergency department if symptoms exacerbate or if there's concern for acute coronary syndrome.
+2. Schedule urgent cardiology consultation for comprehensive cardiac evaluation.
+3. Request for prompt blood work-up including cardiac biomarkers (troponins), CBC, CMP, BNP, and a repeat lipid profile.
+4. Adjust lifestyle interventions and possibly medications under close supervision after consultations with the specialists.
+
+Patient education on recognizing signs of acute cardiac events, importance of medication adherence, and lifestyle modifications, particularly emphasizing the need for a low-sodium diet, regular physical exercise, and strict glycemic control, is essential. Regular follow-ups are imperative to monitor progress and make necessary adjustments to the treatment plan.Based on the provided patient profile and symptoms, here is an analysis and initial assessment:
+
+### Initial Diagnosis:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - The intermittent chest pain that worsens with exertion and is relieved by rest is highly suggestive of angina pectoris, indicating possible ischemic heart disease.
+   
+2. **Congestive Heart Failure (CHF):**
+   - The presence of shortness of breath, especially with physical activity and at rest, coupled with wheezing, coughing, and swelling in the legs and ankles, suggests fluid overload and possible congestive heart failure.
+   
+3. **Poorly Controlled Risk Factors:** 
+   - Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity, and previous smoking history further complicate the cardiac profile and increase the likelihood of cardiovascular events.
+
+### Recommended Specialists to Consult:
+
+1. **Cardiologist:** 
+   - For comprehensive evaluation of possible ischemic heart disease and congestive heart failure. Diagnostic workup might include:
+     - Electrocardiogram (EKG)
+     - Echocardiogram
+     - Stress Test
+     - Coronary Angiography
+     - BNP levels for heart failure
+     - Further evaluation of lipid profile and management
+
+2. **Endocrinologist:**
+   - For better management of Type 2 Diabetes and optimization of diabetic control.
+
+3. **Pulmonologist:**
+   - Given the symptoms of shortness of breath, wheezing, and coughing, to rule out any potential respiratory disorders like COPD or asthma, which might be contributing to her symptoms.
+
+4. **Dietitian/Nutritionist:**
+   - For assistance with dietary modifications to better manage diabetes, hypertension, and hyperlipidemia.
+
+### Immediate Concerns:
+
+1. **Potential for Acute Coronary Syndrome (ACS):**
+   - Given the chest pain and family history of myocardial infarction, there's a need for immediate evaluation to rule out the risk of an impending cardiac event.
+   
+2. **Decompensated Congestive Heart Failure:**
+   - Symptoms such as shortness of breath and swelling in the legs and ankles suggest fluid retention and possible heart failure, which must be urgently assessed and managed.
+   
+3. **Hypertensive Urgency:**
+   - Blood pressure management appears suboptimal with a reading of 140/90 mmHg. Closer BP control is essential to reduce cardiovascular risk.
+   
+4. **Poorly Controlled Diabetes:**
+   - With an HbA1c of 7.8, there is room for improvement in diabetes management to prevent further complications.
+
+**Action Plan:**
+
+1. Immediate referral to the emergency department if symptoms exacerbate or if there's concern for acute coronary syndrome.
+2. Schedule urgent cardiology consultation for comprehensive cardiac evaluation.
+3. Request for prompt blood work-up including cardiac biomarkers (troponins), CBC, CMP, BNP, and a repeat lipid profile.
+4. Adjust lifestyle interventions and possibly medications under close supervision after consultations with the specialists.
+
+Patient education on recognizing signs of acute cardiac events, importance of medication adherence, and lifestyle modifications, particularly emphasizing the need for a low-sodium diet, regular physical exercise, and strict glycemic control, is essential. Regular follow-ups are imperative to monitor progress and make necessary adjustments to the treatment plan.Based on the provided patient profile and symptoms, here is an analysis and initial assessment:
+
+### Initial Diagnosis:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - The intermittent chest pain that worsens with exertion and is relieved by rest is highly suggestive of angina pectoris, indicating possible ischemic heart disease.
+   
+2. **Congestive Heart Failure (CHF):**
+   - The presence of shortness of breath, especially with physical activity and at rest, coupled with wheezing, coughing, and swelling in the legs and ankles, suggests fluid overload and possible congestive heart failure.
+   
+3. **Poorly Controlled Risk Factors:** 
+   - Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity, and previous smoking history further complicate the cardiac profile and increase the likelihood of cardiovascular events.
+
+### Recommended Specialists to Consult:
+
+1. **Cardiologist:** 
+   - For comprehensive evaluation of possible ischemic heart disease and congestive heart failure. Diagnostic workup might include:
+     - Electrocardiogram (EKG)
+     - Echocardiogram
+     - Stress Test
+     - Coronary Angiography
+     - BNP levels for heart failure
+     - Further evaluation of lipid profile and management
+
+2. **Endocrinologist:**
+   - For better management of Type 2 Diabetes and optimization of diabetic control.
+
+3. **Pulmonologist:**
+   - Given the symptoms of shortness of breath, wheezing, and coughing, to rule out any potential respiratory disorders like COPD or asthma, which might be contributing to her symptoms.
+
+4. **Dietitian/Nutritionist:**
+   - For assistance with dietary modifications to better manage diabetes, hypertension, and hyperlipidemia.
+
+### Immediate Concerns:
+
+1. **Potential for Acute Coronary Syndrome (ACS):**
+   - Given the chest pain and family history of myocardial infarction, there's a need for immediate evaluation to rule out the risk of an impending cardiac event.
+   
+2. **Decompensated Congestive Heart Failure:**
+   - Symptoms such as shortness of breath and swelling in the legs and ankles suggest fluid retention and possible heart failure, which must be urgently assessed and managed.
+   
+3. **Hypertensive Urgency:**
+   - Blood pressure management appears suboptimal with a reading of 140/90 mmHg. Closer BP control is essential to reduce cardiovascular risk.
+   
+4. **Poorly Controlled Diabetes:**
+   - With an HbA1c of 7.8, there is room for improvement in diabetes management to prevent further complications.
+
+**Action Plan:**
+
+1. Immediate referral to the emergency department if symptoms exacerbate or if there's concern for acute coronary syndrome.
+2. Schedule urgent cardiology consultation for comprehensive cardiac evaluation.
+3. Request for prompt blood work-up including cardiac biomarkers (troponins), CBC, CMP, BNP, and a repeat lipid profile.
+4. Adjust lifestyle interventions and possibly medications under close supervision after consultations with the specialists.
+
+Patient education on recognizing signs of acute cardiac events, importance of medication adherence, and lifestyle modifications, particularly emphasizing the need for a low-sodium diet, regular physical exercise, and strict glycemic control, is essential. Regular follow-ups are imperative to monitor progress and make necessary adjustments to the treatment plan.Based on the provided patient profile and symptoms, here is an analysis and initial assessment:
+
+### Initial Diagnosis:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - The intermittent chest pain that worsens with exertion and is relieved by rest is highly suggestive of angina pectoris, indicating possible ischemic heart disease.
+   
+2. **Congestive Heart Failure (CHF):**
+   - The presence of shortness of breath, especially with physical activity and at rest, coupled with wheezing, coughing, and swelling in the legs and ankles, suggests fluid overload and possible congestive heart failure.
+   
+3. **Poorly Controlled Risk Factors:** 
+   - Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity, and previous smoking history further complicate the cardiac profile and increase the likelihood of cardiovascular events.
+
+### Recommended Specialists to Consult:
+
+1. **Cardiologist:** 
+   - For comprehensive evaluation of possible ischemic heart disease and congestive heart failure. Diagnostic workup might include:
+     - Electrocardiogram (EKG)
+     - Echocardiogram
+     - Stress Test
+     - Coronary Angiography
+     - BNP levels for heart failure
+     - Further evaluation of lipid profile and management
+
+2. **Endocrinologist:**
+   - For better management of Type 2 Diabetes and optimization of diabetic control.
+
+3. **Pulmonologist:**
+   - Given the symptoms of shortness of breath, wheezing, and coughing, to rule out any potential respiratory disorders like COPD or asthma, which might be contributing to her symptoms.
+
+4. **Dietitian/Nutritionist:**
+   - For assistance with dietary modifications to better manage diabetes, hypertension, and hyperlipidemia.
+
+### Immediate Concerns:
+
+1. **Potential for Acute Coronary Syndrome (ACS):**
+   - Given the chest pain and family history of myocardial infarction, there's a need for immediate evaluation to rule out the risk of an impending cardiac event.
+   
+2. **Decompensated Congestive Heart Failure:**
+   - Symptoms such as shortness of breath and swelling in the legs and ankles suggest fluid retention and possible heart failure, which must be urgently assessed and managed.
+   
+3. **Hypertensive Urgency:**
+   - Blood pressure management appears suboptimal with a reading of 140/90 mmHg. Closer BP control is essential to reduce cardiovascular risk.
+   
+4. **Poorly Controlled Diabetes:**
+   - With an HbA1c of 7.8, there is room for improvement in diabetes management to prevent further complications.
+
+**Action Plan:**
+
+1. Immediate referral to the emergency department if symptoms exacerbate or if there's concern for acute coronary syndrome.
+2. Schedule urgent cardiology consultation for comprehensive cardiac evaluation.
+3. Request for prompt blood work-up including cardiac biomarkers (troponins), CBC, CMP, BNP, and a repeat lipid profile.
+4. Adjust lifestyle interventions and possibly medications under close supervision after consultations with the specialists.
+
+Patient education on recognizing signs of acute cardiac events, importance of medication adherence, and lifestyle modifications, particularly emphasizing the need for a low-sodium diet, regular physical exercise, and strict glycemic control, is essential. Regular follow-ups are imperative to monitor progress and make necessary adjustments to the treatment plan.Based on the provided patient profile and symptoms, here is an analysis and initial assessment:
+
+### Initial Diagnosis:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - The intermittent chest pain that worsens with exertion and is relieved by rest is highly suggestive of angina pectoris, indicating possible ischemic heart disease.
+   
+2. **Congestive Heart Failure (CHF):**
+   - The presence of shortness of breath, especially with physical activity and at rest, coupled with wheezing, coughing, and swelling in the legs and ankles, suggests fluid overload and possible congestive heart failure.
+   
+3. **Poorly Controlled Risk Factors:** 
+   - Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity, and previous smoking history further complicate the cardiac profile and increase the likelihood of cardiovascular events.
+
+### Recommended Specialists to Consult:
+
+1. **Cardiologist:** 
+   - For comprehensive evaluation of possible ischemic heart disease and congestive heart failure. Diagnostic workup might include:
+     - Electrocardiogram (EKG)
+     - Echocardiogram
+     - Stress Test
+     - Coronary Angiography
+     - BNP levels for heart failure
+     - Further evaluation of lipid profile and management
+
+2. **Endocrinologist:**
+   - For better management of Type 2 Diabetes and optimization of diabetic control.
+
+3. **Pulmonologist:**
+   - Given the symptoms of shortness of breath, wheezing, and coughing, to rule out any potential respiratory disorders like COPD or asthma, which might be contributing to her symptoms.
+
+4. **Dietitian/Nutritionist:**
+   - For assistance with dietary modifications to better manage diabetes, hypertension, and hyperlipidemia.
+
+### Immediate Concerns:
+
+1. **Potential for Acute Coronary Syndrome (ACS):**
+   - Given the chest pain and family history of myocardial infarction, there's a need for immediate evaluation to rule out the risk of an impending cardiac event.
+   
+2. **Decompensated Congestive Heart Failure:**
+   - Symptoms such as shortness of breath and swelling in the legs and ankles suggest fluid retention and possible heart failure, which must be urgently assessed and managed.
+   
+3. **Hypertensive Urgency:**
+   - Blood pressure management appears suboptimal with a reading of 140/90 mmHg. Closer BP control is essential to reduce cardiovascular risk.
+   
+4. **Poorly Controlled Diabetes:**
+   - With an HbA1c of 7.8, there is room for improvement in diabetes management to prevent further complications.
+
+**Action Plan:**
+
+1. Immediate referral to the emergency department if symptoms exacerbate or if there's concern for acute coronary syndrome.
+2. Schedule urgent cardiology consultation for comprehensive cardiac evaluation.
+3. Request for prompt blood work-up including cardiac biomarkers (troponins), CBC, CMP, BNP, and a repeat lipid profile.
+4. Adjust lifestyle interventions and possibly medications under close supervision after consultations with the specialists.
+
+Patient education on recognizing signs of acute cardiac events, importance of medication adherence, and lifestyle modifications, particularly emphasizing the need for a low-sodium diet, regular physical exercise, and strict glycemic control, is essential. Regular follow-ups are imperative to monitor progress and make necessary adjustments to the treatment plan.Based on the provided patient profile and symptoms, here is an analysis and initial assessment:
+
+### Initial Diagnosis:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - The intermittent chest pain that worsens with exertion and is relieved by rest is highly suggestive of angina pectoris, indicating possible ischemic heart disease.
+   
+2. **Congestive Heart Failure (CHF):**
+   - The presence of shortness of breath, especially with physical activity and at rest, coupled with wheezing, coughing, and swelling in the legs and ankles, suggests fluid overload and possible congestive heart failure.
+   
+3. **Poorly Controlled Risk Factors:** 
+   - Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity, and previous smoking history further complicate the cardiac profile and increase the likelihood of cardiovascular events.
+
+### Recommended Specialists to Consult:
+
+1. **Cardiologist:** 
+   - For comprehensive evaluation of possible ischemic heart disease and congestive heart failure. Diagnostic workup might include:
+     - Electrocardiogram (EKG)
+     - Echocardiogram
+     - Stress Test
+     - Coronary Angiography
+     - BNP levels for heart failure
+     - Further evaluation of lipid profile and management
+
+2. **Endocrinologist:**
+   - For better management of Type 2 Diabetes and optimization of diabetic control.
+
+3. **Pulmonologist:**
+   - Given the symptoms of shortness of breath, wheezing, and coughing, to rule out any potential respiratory disorders like COPD or asthma, which might be contributing to her symptoms.
+
+4. **Dietitian/Nutritionist:**
+   - For assistance with dietary modifications to better manage diabetes, hypertension, and hyperlipidemia.
+
+### Immediate Concerns:
+
+1. **Potential for Acute Coronary Syndrome (ACS):**
+   - Given the chest pain and family history of myocardial infarction, there's a need for immediate evaluation to rule out the risk of an impending cardiac event.
+   
+2. **Decompensated Congestive Heart Failure:**
+   - Symptoms such as shortness of breath and swelling in the legs and ankles suggest fluid retention and possible heart failure, which must be urgently assessed and managed.
+   
+3. **Hypertensive Urgency:**
+   - Blood pressure management appears suboptimal with a reading of 140/90 mmHg. Closer BP control is essential to reduce cardiovascular risk.
+   
+4. **Poorly Controlled Diabetes:**
+   - With an HbA1c of 7.8, there is room for improvement in diabetes management to prevent further complications.
+
+**Action Plan:**
+
+1. Immediate referral to the emergency department if symptoms exacerbate or if there's concern for acute coronary syndrome.
+2. Schedule urgent cardiology consultation for comprehensive cardiac evaluation.
+3. Request for prompt blood work-up including cardiac biomarkers (troponins), CBC, CMP, BNP, and a repeat lipid profile.
+4. Adjust lifestyle interventions and possibly medications under close supervision after consultations with the specialists.
+
+Patient education on recognizing signs of acute cardiac events, importance of medication adherence, and lifestyle modifications, particularly emphasizing the need for a low-sodium diet, regular physical exercise, and strict glycemic control, is essential. Regular follow-ups are imperative to monitor progress and make necessary adjustments to the treatment plan.Based on the provided patient profile and symptoms, here is an analysis and initial assessment:
+
+### Initial Diagnosis:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - The intermittent chest pain that worsens with exertion and is relieved by rest is highly suggestive of angina pectoris, indicating possible ischemic heart disease.
+   
+2. **Congestive Heart Failure (CHF):**
+   - The presence of shortness of breath, especially with physical activity and at rest, coupled with wheezing, coughing, and swelling in the legs and ankles, suggests fluid overload and possible congestive heart failure.
+   
+3. **Poorly Controlled Risk Factors:** 
+   - Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity, and previous smoking history further complicate the cardiac profile and increase the likelihood of cardiovascular events.
+
+### Recommended Specialists to Consult:
+
+1. **Cardiologist:** 
+   - For comprehensive evaluation of possible ischemic heart disease and congestive heart failure. Diagnostic workup might include:
+     - Electrocardiogram (EKG)
+     - Echocardiogram
+     - Stress Test
+     - Coronary Angiography
+     - BNP levels for heart failure
+     - Further evaluation of lipid profile and management
+
+2. **Endocrinologist:**
+   - For better management of Type 2 Diabetes and optimization of diabetic control.
+
+3. **Pulmonologist:**
+   - Given the symptoms of shortness of breath, wheezing, and coughing, to rule out any potential respiratory disorders like COPD or asthma, which might be contributing to her symptoms.
+
+4. **Dietitian/Nutritionist:**
+   - For assistance with dietary modifications to better manage diabetes, hypertension, and hyperlipidemia.
+
+### Immediate Concerns:
+
+1. **Potential for Acute Coronary Syndrome (ACS):**
+   - Given the chest pain and family history of myocardial infarction, there's a need for immediate evaluation to rule out the risk of an impending cardiac event.
+   
+2. **Decompensated Congestive Heart Failure:**
+   - Symptoms such as shortness of breath and swelling in the legs and ankles suggest fluid retention and possible heart failure, which must be urgently assessed and managed.
+   
+3. **Hypertensive Urgency:**
+   - Blood pressure management appears suboptimal with a reading of 140/90 mmHg. Closer BP control is essential to reduce cardiovascular risk.
+   
+4. **Poorly Controlled Diabetes:**
+   - With an HbA1c of 7.8, there is room for improvement in diabetes management to prevent further complications.
+
+**Action Plan:**
+
+1. Immediate referral to the emergency department if symptoms exacerbate or if there's concern for acute coronary syndrome.
+2. Schedule urgent cardiology consultation for comprehensive cardiac evaluation.
+3. Request for prompt blood work-up including cardiac biomarkers (troponins), CBC, CMP, BNP, and a repeat lipid profile.
+4. Adjust lifestyle interventions and possibly medications under close supervision after consultations with the specialists.
+
+Patient education on recognizing signs of acute cardiac events, importance of medication adherence, and lifestyle modifications, particularly emphasizing the need for a low-sodium diet, regular physical exercise, and strict glycemic control, is essential. Regular follow-ups are imperative to monitor progress and make necessary adjustments to the treatment plan.Based on the provided patient profile and symptoms, here is an analysis and initial assessment:
+
+### Initial Diagnosis:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - The intermittent chest pain that worsens with exertion and is relieved by rest is highly suggestive of angina pectoris, indicating possible ischemic heart disease.
+   
+2. **Congestive Heart Failure (CHF):**
+   - The presence of shortness of breath, especially with physical activity and at rest, coupled with wheezing, coughing, and swelling in the legs and ankles, suggests fluid overload and possible congestive heart failure.
+   
+3. **Poorly Controlled Risk Factors:** 
+   - Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity, and previous smoking history further complicate the cardiac profile and increase the likelihood of cardiovascular events.
+
+### Recommended Specialists to Consult:
+
+1. **Cardiologist:** 
+   - For comprehensive evaluation of possible ischemic heart disease and congestive heart failure. Diagnostic workup might include:
+     - Electrocardiogram (EKG)
+     - Echocardiogram
+     - Stress Test
+     - Coronary Angiography
+     - BNP levels for heart failure
+     - Further evaluation of lipid profile and management
+
+2. **Endocrinologist:**
+   - For better management of Type 2 Diabetes and optimization of diabetic control.
+
+3. **Pulmonologist:**
+   - Given the symptoms of shortness of breath, wheezing, and coughing, to rule out any potential respiratory disorders like COPD or asthma, which might be contributing to her symptoms.
+
+4. **Dietitian/Nutritionist:**
+   - For assistance with dietary modifications to better manage diabetes, hypertension, and hyperlipidemia.
+
+### Immediate Concerns:
+
+1. **Potential for Acute Coronary Syndrome (ACS):**
+   - Given the chest pain and family history of myocardial infarction, there's a need for immediate evaluation to rule out the risk of an impending cardiac event.
+   
+2. **Decompensated Congestive Heart Failure:**
+   - Symptoms such as shortness of breath and swelling in the legs and ankles suggest fluid retention and possible heart failure, which must be urgently assessed and managed.
+   
+3. **Hypertensive Urgency:**
+   - Blood pressure management appears suboptimal with a reading of 140/90 mmHg. Closer BP control is essential to reduce cardiovascular risk.
+   
+4. **Poorly Controlled Diabetes:**
+   - With an HbA1c of 7.8, there is room for improvement in diabetes management to prevent further complications.
+
+**Action Plan:**
+
+1. Immediate referral to the emergency department if symptoms exacerbate or if there's concern for acute coronary syndrome.
+2. Schedule urgent cardiology consultation for comprehensive cardiac evaluation.
+3. Request for prompt blood work-up including cardiac biomarkers (troponins), CBC, CMP, BNP, and a repeat lipid profile.
+4. Adjust lifestyle interventions and possibly medications under close supervision after consultations with the specialists.
+
+Patient education on recognizing signs of acute cardiac events, importance of medication adherence, and lifestyle modifications, particularly emphasizing the need for a low-sodium diet, regular physical exercise, and strict glycemic control, is essential. Regular follow-ups are imperative to monitor progress and make necessary adjustments to the treatment plan.
+2025-04-29 09:31:05,047 - INFO - 
+=== Specialist Consultations ===
+2025-04-29 09:31:05,049 - INFO - 
+PULMONOLOGIST:
+2025-04-29 09:31:05,051 - INFO - ### Expert Pulmonology Review:
+
+The given patient profile and current diagnosis highlight several significant cardiac issues. However, from a respiratory perspective, there are specific symptoms mentioned that warrant a closer pulmonary assessment. Let's delve into those symptoms and recommend the appropriate treatments and interventions:
+
+### Respiratory Concerns:
+1. **Shortness of Breath:**
+   - The patient has reported difficulty breathing particularly during physical activities and at rest, sometimes accompanied by wheezing and occasional coughing. This suggests a possible respiratory component to her condition, potentially concomitant with her cardiac issues.
+
+2. **Wheezing and Coughing:**
+   - Wheezing often suggests some degree of airway obstruction, which could be due to chronic obstructive pulmonary disease (COPD), asthma, or other respiratory conditions. Given her smoking history, COPD is a substantial consideration.
+
+### Differential Diagnosis for Respiratory Symptoms:
+1. **Chronic Obstructive Pulmonary Disease (COPD):**
+   - The patient's history of smoking and the presence of wheezing and shortness of breath suggest COPD as a likely diagnosis. Smoking for 25 years significantly increases this risk.
+
+2. **Asthma:**
+   - Although less likely given the age of onset and smoking history, asthma could present similarly, especially if there is a history of respiratory allergies or other atopic conditions.
+
+3. **Cardiac Asthma:**
+   - Given her signs of possible congestive heart failure, her wheezing could be a result of cardiac asthma (pulmonary edema secondary to heart failure).
+
+4. **Interstitial Lung Disease (ILD):**
+   - Though less likely given her symptoms, chronic diseases like ILD need to be considered if other typical findings such as dry cough or clubbing of fingers are present.
+
+### Recommended Diagnostic Steps:
+1. **Pulmonary Function Tests (PFTs):**
+   - Spirometry would help distinguish between obstructive (e.g., COPD, asthma) and restrictive patterns of lung disease (e.g., ILD).
+
+2. **Chest X-Ray or Computed Tomography (CT) Scan:**
+   - To assess for any obvious structural lung diseases, interstitial disease, or signs of heart failure that might be contributing to her dyspnea.
+
+3. **Arterial Blood Gas (ABG) Analysis:**
+   - To assess the degree of hypoxemia or hypercapnia if she is experiencing significant respiratory distress.
+
+4. **Echocardiogram:**
+   - While this is more cardiac-focused, it will help assess for pulmonary hypertension, which could be contributing to her respiratory symptoms.
+
+5. **Six-Minute Walk Test (6MWT):**
+   - To evaluate her exercise tolerance and the degree of desaturation with exertion, which is valuable data for both cardiac and respiratory assessment.
+
+### Treatment Recommendations:
+1. **Bronchodilators:**
+   - If COPD is confirmed, a combination of long-acting beta-agonists (LABAs) and long-acting muscarinic antagonists (LAMAs) should be initiated. Inhaled corticosteroids (ICS) may be added if there are frequent exacerbations.
+
+2. **Smoking Cessation Support:**
+   - Even though she has quit smoking, continued support and prevention of relapse remain crucial.
+
+3. **Pulmonary Rehabilitation:**
+   - A structured pulmonary rehabilitation program can improve exercise tolerance, reduce symptoms, and improve quality of life.
+
+4. **Oxygen Therapy:**
+   - If hypoxemia is documented, supplemental oxygen may be necessary, especially during exertion.
+
+5. **Diuretics:**
+   - If signs of heart failure are prominent, appropriate use of diuretics can help alleviate pulmonary congestion.
+
+6. **Lifestyle Modifications:**
+   - Encourage regular physical exercise tailored to her ability and supervised as needed to improve lung health and overall cardiovascular function.
+
+### Follow-Up:
+- Regular follow-up appointments should be scheduled to monitor her progress, adjust medications accordingly, and ensure adherence to prescribed treatments and lifestyle modifications.
+
+### Interdisciplinary Approach:
+Given the complexity of her symptoms and overlap between cardiac and pulmonary issues, an interdisciplinary approach involving both cardiologists and pulmonologists is essential to optimize clinical outcomes. Additionally, continual coordination with her primary care physician, endocrinologist, and dietitian will help in the holistic management of her multiple comorbidities.
+2025-04-29 09:31:05,074 - INFO - 
+CARDIOLOGIST:
+2025-04-29 09:31:05,075 - INFO - Given the patient's symptoms and medical history, I agree with the initial diagnoses and appreciate the detailed outline provided. Here are my expert opinions and recommended steps for further cardiac evaluation and treatment:
+
+### Expert Assessment and Recommendations:
+
+1. **Ischemic Heart Disease (Coronary Artery Disease):**
+   - **Symptoms:** The description of chest pain—intermittent, sharp, exertion-related, and relieved by rest—is characteristic of angina pectoris, a key indicator of underlying ischemic heart disease.
+   - **Immediate Steps:**
+     - **Electrocardiogram (ECG):** Urgently needed to assess for any signs of ischemia or previous myocardial infarction.
+     - **Cardiac Biomarkers:** Troponin levels should be checked to rule out acute coronary syndrome.
+     - **Stress Testing:** Either a treadmill stress test or pharmacological stress test combined with imaging (e.g., myocardial perfusion imaging) to evaluate for inducible ischemia.
+     - **Coronary Angiography:** If non-invasive tests indicate significant ischemia, a coronary angiogram may be warranted to assess the coronary anatomy and decide if revascularization is necessary (either percutaneous coronary intervention or bypass surgery).
+
+2. **Congestive Heart Failure (CHF):**
+   - **Symptoms:** Shortness of breath, wheezing, orthopnea, fatigue, and leg swelling align with heart failure symptoms, likely due to left ventricular systolic dysfunction, given the existing comorbidities.
+   - **Immediate Steps:**
+     - **Echocardiogram:** To evaluate cardiac function, specifically left ventricular ejection fraction (LVEF), wall motion abnormalities, and any valvular issues.
+     - **Brain Natriuretic Peptide (BNP)/NT-proBNP:** Levels can help confirm heart failure diagnosis and gauge severity.
+     - **Fluid Status Assessment:** If signs of fluid overload are present, consider diuretics such as furosemide.
+
+3. **Management of Cardiac Risk Factors:**
+   - **Hypertension:** The blood pressure is at the higher end of the target range.
+     - **Adjustment in Antihypertensive Therapy:** Consider augmenting current therapy, possibly adding a beta-blocker or calcium channel blocker, particularly if ischemic heart disease is confirmed.
+   - **Diabetes:** HbA1c of 7.8% indicates suboptimal control.
+     - **Intensify Diabetic Management:** May need to adjust the dose of metformin or add another antidiabetic agent (e.g., SGLT2 inhibitors or GLP-1 receptor agonists) under endocrinology guidance.
+   - **Lipid Management:** Borderline high cholesterol needs more aggressive control.
+     - **Intensify Statin Therapy:** Consider increasing the dose of atorvastatin or adding other lipid-lowering agents (e.g., ezetimibe or PCSK9 inhibitors).
+   - **Obesity:** Weight management is critical for improving overall cardiovascular health.
+     - **Dietitian Referral:** To craft a personalized dietary plan focusing on reducing carbohydrate intake and promoting heart health.
+     - **Exercise Plan:** Encourage graded increase in physical activity as tolerated, starting with more regular walking.
+
+### Monitoring and Follow-Up:
+
+- **Holistic Review:** Follow-up visits should monitor the efficacy of any medication adjustments and lifestyle changes.
+- **Education:** Educate the patient about recognizing worsening symptoms of heart failure or myocardial infarction (e.g., increasing chest pain, substantial shortness of breath, sudden weight gain).
+- **Coordination with Specialists:** Close collaboration with endocrinologists, pulmonologists, and dietitians/nutritionists is crucial for comprehensive care.
+
+### Preventive Measures and Lifestyle Modifications:
+
+1. **Diet:** Emphasis on a heart-healthy diet, including low sodium, low saturated fat, and high fiber. Encourage limiting sweets and carbohydrates.
+2. **Exercise:** Regular, moderate-intensity exercise, approximately 150 minutes per week, as tolerated.
+3. **Medication Adherence:** Ensure the patient understands the importance of adhering to prescribed medications consistently.
+4. **Smoking Cessation:** Continue reinforcing the benefits of remaining smoke-free.
+5. **Alcohol Intake:** Limit to moderate consumption, emphasizing that excessive alcohol can exacerbate heart problems.
+
+### Conclusion:
+
+The patient’s symptoms necessitate a thorough cardiac evaluation to rule out or confirm ischemic heart disease and heart failure. Immediate diagnostic tests are critical for directing appropriate treatment. Continuous management of cardiovascular risk factors via medication adjustments, lifestyle modifications, and regular follow-ups will be vital in reducing the risk of future cardiac events. Early intervention in case of exacerbated symptoms can prevent severe consequences. Secure all necessary specialist referrals and ensure the patient is closely monitored during this transitional period.
+2025-04-29 09:31:05,088 - INFO - 
+NEUROLOGIST:
+2025-04-29 09:31:05,089 - INFO - From a neurological perspective, while the primary symptoms and concerns of this patient are predominantly cardiovascular, there are several points that need consideration, particularly regarding potential neurologic conditions that may either mimic or coexist with her current presentation.
+
+### Neurological Concerns:
+
+1. **Fatigue:**
+   - Fatigue is a nonspecific symptom that can be associated with both neurological and systemic diseases. While in this case, it is likely secondary to her cardiovascular condition or poorly controlled diabetes, other neurological causes (e.g., sleep disorders like obstructive sleep apnea, depression, or neuromuscular diseases) should be ruled out.
+   
+2. **Possible Ischemic Events:**
+   - The patient's cardiovascular risk factors (hypertension, diabetes, hyperlipidemia, obesity, and smoking history) increase the risk of ischemic events, including transient ischemic attacks (TIAs) and strokes, which might not have overt neurological deficits initially but could have subtle presentations like fatigue or cognitive changes.
+
+3. **Cognitive Concerns:**
+   - While not explicitly mentioned, given her age and risk factors, it’s prudent to keep an eye on early signs of cognitive decline which can be exacerbated by microvascular changes due to her poorly controlled diabetes and hypertension.
+
+4. **Peripheral Neuropathy:**
+   - As the patient has had diabetes for five years with an HbA1c of 7.8, she is at risk for diabetic neuropathy, which could contribute to her fatigue and swelling in legs and ankles due to reduced activity levels or pain.
+
+### Recommended Neurological Evaluations:
+
+1. **Neurological Examination:**
+   - A comprehensive neurological exam to evaluate for signs of peripheral neuropathy, cognitive impairment, or any subtle neurological deficits that could suggest previous ischemic events or other neurological disorders.
+
+2. **Neuroimaging:**
+   - If there is any suspicion of TIA or stroke (even silent), an MRI of the brain can be useful to assess for any ischemic changes or signs of chronic microvascular disease.
+   
+3. **Assessment for Sleep Disorder:**
+   - In light of her fatigue, consider an assessment for obstructive sleep apnea, especially given her obesity, which is a significant risk factor.
+
+4. **Nerve Conduction Studies/Electromyography (NCS/EMG):**
+   - If diabetic neuropathy is suspected, nerve conduction studies can confirm the diagnosis and assess the extent of nerve damage.
+
+### Neurological Treatment Recommendations:
+
+1. **For Diabetic Neuropathy:**
+   - Optimizing blood glucose control is paramount.
+   - Medications like gabapentin or pregabalin for symptomatic relief.
+   - Regular follow-ups with a neurologist for comprehensive management.
+
+2. **For Sleep Apnea:**
+   - Polysomnography if clinically indicated.
+   - Continuous positive airway pressure (CPAP) therapy if diagnosed with obstructive sleep apnea.
+
+3. **Stroke Prevention:**
+   - Given her high risk for cardiovascular events, ensure all primary prevention measures are optimized.
+   - Aspirin is already prescribed; continue unless contra-indicated for another reason.
+   - Maintain stringent control over blood pressure, diabetes, and cholesterol.
+
+4. **Cognitive Health:**
+   - Regular monitoring of cognitive function with tools like the Montreal Cognitive Assessment (MoCA) or Mini-Mental State Examination (MMSE).
+   - Lifestyle changes including physical exercise, cognitive training, and managing cardiovascular risk factors.
+
+### Overall Management Plan:
+
+1. **Multidisciplinary Approach:**
+   - Collaborative care incorporating cardiologist, endocrinologist, pulmonologist, and dietitian.
+   - Regular monitoring and adjustment of medications as required.
+
+2. **Lifestyle Modifications:**
+   - Emphasis on low-sodium, low-sugar diet.
+   - Regular physical activity tailored to her abilities, starting with supervised cardiac rehabilitation programs if deemed appropriate by her cardiologist.
+
+3. **Patient Education:**
+   - Informing the patient and family about signs of acute cardiac and neurological events.
+   - Encourage adherence to medications and follow-up appointments.
+
+While the neurological concerns are secondary in this context, they remain significant, given the systemic nature of her conditions. Addressing them proactively can improve her overall prognosis and quality of life.
+2025-04-29 09:31:05,110 - INFO - 
+=== Final Diagnosis and Treatment Plan ===
+2025-04-29 09:31:05,115 - INFO - ## Final Diagnosis
+
+1. Ischemic Heart Disease (Coronary Artery Disease)
+2. Congestive Heart Failure (CHF)
+3. Chronic Obstructive Pulmonary Disease (COPD) or Asthma (to be confirmed)
+4. Poorly Controlled Risk Factors (Hypertension, Type 2 Diabetes, Hyperlipidemia, Obesity)
+5. Diabetic Peripheral Neuropathy (suspected)
+
+## Comprehensive Treatment Plan
+
+### Cardiac Care:
+
+1. **Immediate Diagnostics:**
+   - Electrocardiogram (ECG)
+   - Cardiac Biomarkers (Troponin)
+   - Echocardiogram
+   - Stress Testing (Treadmill/Pharmacological with imaging)
+   - Coronary Angiography if non-invasive tests suggest significant ischemia
+   - Brain Natriuretic Peptide (BNP) / NT-proBNP
+
+2. **Medications Adjustments:**
+   - Optimize antihypertensive therapy (consider adding beta-blocker or calcium channel blocker)
+   - Intensify statin therapy for hyperlipidemia (consider increasing atorvastatin dose or adding ezetimibe/PCSK9 inhibitors)
+   - Adjust diabetes management (possibly adding SGLT2 inhibitors or GLP-1 receptor agonists under endocrinologist guidance)
+   - Continuation and adherence to aspirin for cardiovascular prevention
+   - Diuretics (e.g., furosemide) for managing fluid overload in CHF
+
+3. **Lifestyle Interventions:**
+   - Low-sodium, heart-healthy, low carbohydrate, and high-fiber diet
+   - Encourage regular moderated physical activity, approximately 150 minutes/week
+
+### Pulmonology Care:
+
+1. **Immediate Diagnostics:**
+   - Pulmonary Function Tests (PFTs)
+   - Chest X-Ray or CT Scan
+   - Arterial Blood Gas (ABG) analysis if significant respiratory distress
+   - Six-Minute Walk Test (6MWT)
+   
+2. **Medications:**
+   - Bronchodilators if COPD is confirmed (LABAs, LAMAs, possible ICS for exacerbations)
+   - Continue smoking cessation support and relapse prevention
+
+3. **Therapies:**
+   - Pulmonary rehabilitation for improved exercise tolerance and symptom management
+   - Oxygen therapy if hypoxemia is documented
+
+### Endocrine and Metabolic Care:
+
+1. **Diabetes Management:**
+   - Optimize glycemic control with possible medication adjustments as mentioned
+   - Regular monitoring of HbA1c and glucose levels
+   - Dietary modifications with the help of a nutritionist
+
+### Neurological Care:
+
+1. **Diagnostics:**
+   - Comprehensive neurological examination to evaluate for diabetic neuropathy, cognitive impairment, or any subtle neurological deficits
+   - MRI of the brain if there is suspicion of ischemic events
+   - Nerve conduction studies/electromyography (NCS/EMG) for diabetic neuropathy
+   - Assessment for obstructive sleep apnea (Polysomnography)
+
+2. **Medications:**
+   - Gabapentin or pregabalin for symptomatic relief of neuropathy
+
+### Continuous Care and Follow-Up Recommendations:
+
+1. **Multidisciplinary Coordination:**
+   - Regular interdisciplinary team meetings including cardiologist, pulmonologist, endocrinologist, neurologist, primary care physician, and dietitian for holistic patient management 
+
+2. **Monitoring and Follow-Up:**
+   - Regular follow-ups to monitor blood pressure, glucose levels, lipid profiles, cardiac function (via ECG, Echo), and respiratory function
+   - Comprehensive follow-up visits to adjust medications as needed based on symptom changes and diagnostic results
+   - Educate the patient and family about recognizing signs of worsening symptoms (e.g., chest pain, shortness of breath, significant swelling, cognitive changes)
+
+3. **Patient Education:**
+   - Importance of adhering to medication and lifestyle recommendations
+   - Recognize signs of acute cardiac events and when to seek immediate medical help
+   - Support and reassurance regarding the importance of regular medical follow-ups
+   - Ongoing encouragement and support for lifestyle modifications, including diet, exercise, and smoking cessation
+
+4. **Preventive Measures:**
+   - Reinforce the importance of continued no-smoking policy
+   - Limit alcohol intake
+   - Adherence to prescribed medications
+   - Regular physical activity within the patient’s tolerance level
+
+Ensuring the patient receives prompt and consistent care through a multidisciplinary approach will be key to improving her overall health outcomes and quality of life.
+2025-04-29 09:31:05,138 - INFO - 
+=== Performance Metrics ===
+2025-04-29 09:31:05,142 - INFO - Total Execution Time: 51.57 seconds
+2025-04-29 09:31:05,145 - INFO - Total Tokens Used: 23332
+2025-04-29 09:31:05,147 - INFO - Prompt Tokens: 18336
+2025-04-29 09:31:05,148 - INFO - Completion Tokens: 4996
+2025-04-29 09:31:05,750 - INFO - Workflow completed. Log file: logs/medical_workflow_20250429_093013.log

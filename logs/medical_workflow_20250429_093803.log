@@ -1,0 +1,16 @@
+2025-04-29 09:38:03,564 - INFO - Starting medical diagnosis workflow
+2025-04-29 09:38:12,468 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:38:12,491 - INFO - Generated patient symptoms
+2025-04-29 09:38:26,417 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:38:26,420 - INFO - General practitioner assessment completed
+2025-04-29 09:38:36,363 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:38:36,367 - INFO - Neurologist consultation completed
+2025-04-29 09:38:40,891 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:38:40,898 - INFO - Cardiologist consultation completed
+2025-04-29 09:38:43,136 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:38:43,143 - INFO - Pulmonologist consultation completed
+2025-04-29 09:38:56,368 - INFO - HTTP Request: POST https://air-ts-poc-eastus2.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-06-01 "HTTP/1.1 200 OK"
+2025-04-29 09:38:56,372 - INFO - Final diagnosis and treatment plan completed
+2025-04-29 09:38:56,374 - INFO - 
+=== Patient Case Summary ===
+2025-04-29 09:38:56,375 - INFO - Patient Symptoms and History:
